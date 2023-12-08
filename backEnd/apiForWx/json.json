@@ -1,0 +1,78 @@
+[ 
+        {
+            "name": "高一课程",
+            "icon": "view-module",
+            "childArr": [
+                {
+                    "name": "SET_AND_COMMON_LOGICAL_TERMS",
+                    "label": "第一章集合与常用逻辑用语",
+                    "childArr": [
+                      {
+                          "name": "SET_AND_COMMON_LOGICAL_TERMS_1",
+                          "label": "1.1集合的概念"
+                      },
+                      {
+                          "name": "SET_AND_COMMON_LOGICAL_TERMS_2",
+                          "label": "1.2集合间的基本关系"
+                      },
+                      {
+                          "name": "SET_AND_COMMON_LOGICAL_TERMS_3",
+                          "label": "1.3集合的基本运算"
+                      },
+                      {
+                          "name": "SET_AND_COMMON_LOGICAL_TERMS_4",
+                          "label": "1.4充分条件和必要条件"
+                      },
+                      {
+                          "name": "SET_AND_COMMON_LOGICAL_TERMS_5",
+                          "label": "1.5全称量词和存在量词"
+                      }
+                    ]
+                },
+                {
+                    "name": "UNI_VARIATE_QUADRATIC_FUNCTIONS_EQUATIONS_AND_INEQUALITIES",
+                    "label": "第二章一元二次函数、方程和不等式"
+                },
+                {
+                    "name": "THE_CONCEPT_AND_PROPERTIES_OF_FUNCTIONS",
+                    "label": "第三章函数的概念与性质"
+                },
+                {
+                    "name": "EXPONENTIAL_FUNCTION_AND_LOGARITHMIC_FUNCTION",
+                    "label": "第四章指数函数与对数函数"
+                },
+                {
+                    "name": "TRIGONOMETRIC_FUNCTION",
+                    "label": "第五章三角函数"
+                }
+            ]
+        },
+        {
+              "name": "高二课程",
+              "icon": "view-module",
+              "childArr": [
+                  {
+                      "name": "BackTop",
+                      "label": "集合"
+                  },
+                  {
+                      "name": "Drawer",
+                      "label": "抽屉"
+                  }
+              ]
+        },
+        {
+          "name": "高三课程",
+          "icon": "view-module",
+          "childArr": [
+              {
+                  "name": "BackTop",
+                  "label": "集合"
+              },
+              {
+                  "name": "Drawer",
+                  "label": "抽屉"
+              }
+          ]
+        }
+    ]

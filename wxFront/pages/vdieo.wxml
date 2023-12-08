@@ -1,0 +1,5 @@
+<!--pages/vdieo.wxml-->
+<view wx:for="{{courseList}}" wx:for-item="course" class="course-pannle-item" wx:for-index="idx">
+
+</view>
+<text>pages/vdieo.wxml</text>

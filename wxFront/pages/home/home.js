@@ -1,9 +1,17 @@
+import API from './../../utils/requestUtil.js';
 import list from './data/index';
 Page({
     data: {
         list,
     },
+    
     onLoad(options) {
+        const that = this;
+        API.post('getEu-me',null,
+        function(res){
+          //console.log(res)
+          that.setData({list:JSON.parse(res)}) ;
+        })
         const { path, q } = options;
         console.log(path);
         if (q) {
@@ -21,7 +29,10 @@ Page({
             name = name.replace(/[A-Z]/g, (match) => {
                 return `-${match.toLowerCase()}`;
             });
-            path = `/pages/${name}/${name}`;
+            const data = JSON.stringify(e.detail);
+            console.log(data);
+            path = `/pages/back-top/back-top?data=`+JSON.stringify(e.detail.item);
+            console.log(path);
         }
         wx.navigateTo({
             url: path,
@@ -34,7 +45,7 @@ Page({
     },
     onShareAppMessage() {
         return {
-            title: 'TDesign UI',
+            title: '高中数学在线练习课堂',
             path: '/pages/home/home',
         };
     },
@@ -55,4 +66,5 @@ Page({
         }
         return data;
     },
+    
 });

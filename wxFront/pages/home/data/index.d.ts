@@ -4,6 +4,10 @@ declare const _default: {
     childArr: {
         name: string;
         label: string;
+        childArr: {
+          name: string;
+          label: string;
+        }[]
     }[];
 }[];
 export default _default;
